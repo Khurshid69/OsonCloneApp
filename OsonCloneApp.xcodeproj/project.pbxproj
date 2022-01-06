@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		CE5A836827873A6800C9288D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A836727873A6800C9288D /* AppDelegate.swift */; };
 		CE5A836A27873A6800C9288D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A836927873A6800C9288D /* SceneDelegate.swift */; };
-		CE5A836C27873A6800C9288D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A836B27873A6800C9288D /* ViewController.swift */; };
-		CE5A836F27873A6800C9288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A836D27873A6800C9288D /* Main.storyboard */; };
+		CE5A836C27873A6800C9288D /* PaymentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A836B27873A6800C9288D /* PaymentTableViewController.swift */; };
 		CE5A837227873A6800C9288D /* OsonCloneApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5A837027873A6800C9288D /* OsonCloneApp.xcdatamodeld */; };
 		CE5A837427873A6B00C9288D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A837327873A6B00C9288D /* Assets.xcassets */; };
 		CE5A837727873A6B00C9288D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5A837527873A6B00C9288D /* LaunchScreen.storyboard */; };
+		CE5A837F27873E2900C9288D /* PaymentCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A837E27873E2900C9288D /* PaymentCategoriesCell.swift */; };
+		CE5A83852787452900C9288D /* PaymentOptionCatigories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A83842787452900C9288D /* PaymentOptionCatigories.swift */; };
+		CE5A838727874D4100C9288D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A838627874D4100C9288D /* Extensions.swift */; };
+		CE5A838A2787586400C9288D /* MobileOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A83892787586400C9288D /* MobileOperators.swift */; };
+		CE5A838D27876E5000C9288D /* MobilePaymentTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A838C27876E5000C9288D /* MobilePaymentTable.swift */; };
+		CE5A838F27876E7900C9288D /* MobileOperatorsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A838E27876E7900C9288D /* MobileOperatorsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5A836427873A6800C9288D /* OsonCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsonCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A836727873A6800C9288D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5A836927873A6800C9288D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5A836B27873A6800C9288D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE5A836E27873A6800C9288D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5A836B27873A6800C9288D /* PaymentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewController.swift; sourceTree = "<group>"; };
 		CE5A837127873A6800C9288D /* OsonCloneApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OsonCloneApp.xcdatamodel; sourceTree = "<group>"; };
 		CE5A837327873A6B00C9288D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5A837627873A6B00C9288D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5A837827873A6B00C9288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5A837E27873E2900C9288D /* PaymentCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCategoriesCell.swift; sourceTree = "<group>"; };
+		CE5A83842787452900C9288D /* PaymentOptionCatigories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionCatigories.swift; sourceTree = "<group>"; };
+		CE5A838627874D4100C9288D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE5A83892787586400C9288D /* MobileOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileOperators.swift; sourceTree = "<group>"; };
+		CE5A838C27876E5000C9288D /* MobilePaymentTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePaymentTable.swift; sourceTree = "<group>"; };
+		CE5A838E27876E7900C9288D /* MobileOperatorsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileOperatorsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,69 @@
 		CE5A836627873A6800C9288D /* OsonCloneApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE5A836727873A6800C9288D /* AppDelegate.swift */,
-				CE5A836927873A6800C9288D /* SceneDelegate.swift */,
-				CE5A836B27873A6800C9288D /* ViewController.swift */,
-				CE5A836D27873A6800C9288D /* Main.storyboard */,
-				CE5A837327873A6B00C9288D /* Assets.xcassets */,
-				CE5A837527873A6B00C9288D /* LaunchScreen.storyboard */,
+				CE5A8383278744A600C9288D /* Model */,
+				CE5A8380278743D200C9288D /* Modules */,
+				CE5A83822787440200C9288D /* AppUtils */,
 				CE5A837827873A6B00C9288D /* Info.plist */,
-				CE5A837027873A6800C9288D /* OsonCloneApp.xcdatamodeld */,
 			);
 			path = OsonCloneApp;
+			sourceTree = "<group>";
+		};
+		CE5A8380278743D200C9288D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A838B27876DDE00C9288D /* MobilePayTable */,
+				CE5A8388278756EB00C9288D /* PaymentTable */,
+				CE5A8381278743E700C9288D /* Delegetes */,
+				CE5A838627874D4100C9288D /* Extensions.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE5A8381278743E700C9288D /* Delegetes */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A836727873A6800C9288D /* AppDelegate.swift */,
+				CE5A836927873A6800C9288D /* SceneDelegate.swift */,
+			);
+			path = Delegetes;
+			sourceTree = "<group>";
+		};
+		CE5A83822787440200C9288D /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A837327873A6B00C9288D /* Assets.xcassets */,
+				CE5A837527873A6B00C9288D /* LaunchScreen.storyboard */,
+				CE5A837027873A6800C9288D /* OsonCloneApp.xcdatamodeld */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		CE5A8383278744A600C9288D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A83842787452900C9288D /* PaymentOptionCatigories.swift */,
+				CE5A83892787586400C9288D /* MobileOperators.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE5A8388278756EB00C9288D /* PaymentTable */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A836B27873A6800C9288D /* PaymentTableViewController.swift */,
+				CE5A837E27873E2900C9288D /* PaymentCategoriesCell.swift */,
+			);
+			path = PaymentTable;
+			sourceTree = "<group>";
+		};
+		CE5A838B27876DDE00C9288D /* MobilePayTable */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A838C27876E5000C9288D /* MobilePaymentTable.swift */,
+				CE5A838E27876E7900C9288D /* MobileOperatorsCell.swift */,
+			);
+			path = MobilePayTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +193,6 @@
 			files = (
 				CE5A837727873A6B00C9288D /* LaunchScreen.storyboard in Resources */,
 				CE5A837427873A6B00C9288D /* Assets.xcassets in Resources */,
-				CE5A836F27873A6800C9288D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +203,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5A836C27873A6800C9288D /* ViewController.swift in Sources */,
+				CE5A838727874D4100C9288D /* Extensions.swift in Sources */,
+				CE5A836C27873A6800C9288D /* PaymentTableViewController.swift in Sources */,
+				CE5A83852787452900C9288D /* PaymentOptionCatigories.swift in Sources */,
+				CE5A838A2787586400C9288D /* MobileOperators.swift in Sources */,
 				CE5A836827873A6800C9288D /* AppDelegate.swift in Sources */,
+				CE5A838D27876E5000C9288D /* MobilePaymentTable.swift in Sources */,
+				CE5A837F27873E2900C9288D /* PaymentCategoriesCell.swift in Sources */,
 				CE5A837227873A6800C9288D /* OsonCloneApp.xcdatamodeld in Sources */,
 				CE5A836A27873A6800C9288D /* SceneDelegate.swift in Sources */,
+				CE5A838F27876E7900C9288D /* MobileOperatorsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE5A836D27873A6800C9288D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE5A836E27873A6800C9288D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE5A837527873A6B00C9288D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +357,6 @@
 				INFOPLIST_FILE = OsonCloneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +383,6 @@
 				INFOPLIST_FILE = OsonCloneApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
