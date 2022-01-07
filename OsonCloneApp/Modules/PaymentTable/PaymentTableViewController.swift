@@ -20,7 +20,7 @@ class PaymentTableViewController: UIViewController {
     }()
     
     private let reuseIdentifer = "PaymentCategoriesCell"
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(tableView)
@@ -101,12 +101,13 @@ extension PaymentTableViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = MobilePaymentTable()
-        navigationController?.pushViewController(vc, animated: true)
+        if indexPath.item == 0 {
+            let vc = MobilePaymentTable()
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
     }
 }
-
