@@ -29,6 +29,8 @@ class MobilePaymentTable: UIViewController {
         setupCustomBackButton(withTitle: "Мобильные операторы")
         setupSearchButton()
     }
+    
+    // MARK: - Setting Up Navigation Bar
     func setupCustomBackButton(withTitle title: String) {
         let width = width(ofText: title) + 36
         let backButton = UIButton(frame: .init(origin: .zero, size: .init(width: width, height: .leastNonzeroMagnitude)))
